@@ -1,0 +1,45 @@
+alias viba='vim ~/.bash_aliases'
+alias smb='source ~/.bashrc'
+
+# Bash commands
+alias l='ls -al'
+alias ltr='ls -ltr'
+alias lth='l -t|head'
+alias lh='ls -Shl | less'
+alias tf='tail -f -n 100'
+alias ll='ls -al --color=tty'
+alias lx='ls -lhBX --color=auto'        #sort by extension
+alias lz='ls -lhrS --color=auto'        #sort by size
+alias lt='ls -lhrt --color=auto'        #sort by date
+
+
+alias grep="grep -nE --color"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias chmod='chmod -v --preserve-root'
+alias chown='chown -v --preserve-root'
+alias chgrp='chgrp -v --preserve-root'
+alias mkdir="mkdir -pv"
+alias cp='cp -v'
+alias cpr='cp -r'
+alias mv='mv -v'
+
+alias df="df -h"
+alias du="du -h"
+alias last="last -a"
+alias free='free -m'
+
+#chdir
+alias ..="cd .."
+alias cdd="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+
+#Android commands
+alias cr='croot'
+alias se='source build/envsetup.sh'
